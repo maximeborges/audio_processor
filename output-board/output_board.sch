@@ -1,113 +1,158 @@
 EESchema Schematic File Version 2
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
+LIBS:Amplifier_Audio
+LIBS:Amplifier_Buffer
+LIBS:Amplifier_Current
+LIBS:Amplifier_Difference
+LIBS:Amplifier_Instrumentation
+LIBS:Amplifier_Operational
+LIBS:Amplifier_Video
+LIBS:Analog
+LIBS:Analog_ADC
+LIBS:Analog_DAC
+LIBS:Analog_Switch
+LIBS:Audio
 LIBS:Battery_Management
-LIBS:bbd
-LIBS:Bosch
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:Decawave
-LIBS:device
-LIBS:digital-audio
+LIBS:Comparator
+LIBS:Connector_Generic
+LIBS:Connector_Generic_Shielded
+LIBS:Connector_Specialized
+LIBS:Converter_DCDC
+LIBS:CPLD_Altera
+LIBS:CPLD_Xilinx
+LIBS:CPU
+LIBS:Device
 LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
+LIBS:Diode_Bridge
+LIBS:Diode_Laser
+LIBS:Display_Character
+LIBS:Display_Graphic
+LIBS:Driver_Display
+LIBS:Driver_FET
+LIBS:Driver_LED
+LIBS:Driver_Motor
+LIBS:Driver_Relay
+LIBS:DSP_Freescale
 LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
+LIBS:DSP_Texas
 LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
+LIBS:FPGA_Xilinx
+LIBS:FPGA_Xilinx_Artix7
+LIBS:FPGA_Xilinx_Kintex7
+LIBS:FPGA_Xilinx_Spartan6
+LIBS:FPGA_Xilinx_Virtex5
+LIBS:FPGA_Xilinx_Virtex6
+LIBS:FPGA_Xilinx_Virtex7
 LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
+LIBS:Interface
+LIBS:Interface_CAN_LIN
+LIBS:Interface_CurrentLoop
+LIBS:Interface_Ethernet
+LIBS:Interface_Expansion
+LIBS:Interface_HID
+LIBS:Interface_LineDriver
+LIBS:Interface_Optical
+LIBS:Interface_Telecom
+LIBS:Interface_UART
+LIBS:Interface_USB
+LIBS:Isolator
+LIBS:Isolator_Analog
+LIBS:Jumper
 LIBS:LED
-LIBS:LEM
-LIBS:linear
 LIBS:Logic_74xgxx
 LIBS:Logic_74xx
 LIBS:Logic_CMOS_4000
 LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
+LIBS:Logic_LevelTranslator
+LIBS:Logic_Programmable
 LIBS:Logic_TTL_IEEE
-LIBS:maxim
+LIBS:MCU_AnalogDevices
+LIBS:MCU_Atmel_8051
+LIBS:MCU_Atmel_ATMEGA
+LIBS:MCU_Atmel_ATTINY
+LIBS:MCU_Atmel_AVR
+LIBS:MCU_Cypress
+LIBS:MCU_Infineon
+LIBS:MCU_Intel
 LIBS:MCU_Microchip_PIC10
 LIBS:MCU_Microchip_PIC12
 LIBS:MCU_Microchip_PIC16
 LIBS:MCU_Microchip_PIC18
 LIBS:MCU_Microchip_PIC24
 LIBS:MCU_Microchip_PIC32
+LIBS:MCU_Microchip_SAME
+LIBS:MCU_Microchip_SAML
+LIBS:MCU_Module
+LIBS:MCU_NXP_HC11
 LIBS:MCU_NXP_Kinetis
 LIBS:MCU_NXP_LPC
 LIBS:MCU_NXP_S08
 LIBS:MCU_Parallax
+LIBS:MCU_SiFive
+LIBS:MCU_SiliconLabs
 LIBS:MCU_ST_STM8
 LIBS:MCU_ST_STM32
+LIBS:MCU_Texas
 LIBS:MCU_Texas_MSP430
 LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
+LIBS:Memory_Controller
+LIBS:Memory_EEPROM
+LIBS:Memory_Flash
+LIBS:Memory_NVRAM
+LIBS:Memory_RAM
+LIBS:Memory_ROM
+LIBS:Memory_UniqueID
 LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
+LIBS:Oscillator
+LIBS:Potentiometer_Digital
 LIBS:power
-LIBS:powerint
 LIBS:Power_Management
+LIBS:Power_Protection
+LIBS:Power_Supervisor
 LIBS:pspice
-LIBS:references
-LIBS:regul
+LIBS:Reference_Current
+LIBS:Reference_Voltage
+LIBS:Regulator_Controller
+LIBS:Regulator_Current
+LIBS:Regulator_Linear
+LIBS:Regulator_SwitchedCapacitor
+LIBS:Regulator_Switching
 LIBS:Relay
+LIBS:Relay_SolidState
+LIBS:RF
+LIBS:RF_AM_FM
 LIBS:RF_Bluetooth
-LIBS:rfcom
-LIBS:RFSolutions
+LIBS:RF_GPS
+LIBS:RF_Mixer
+LIBS:RF_Module
+LIBS:RF_RFID
+LIBS:RF_WiFi
+LIBS:RF_ZigBee
+LIBS:Sensor
+LIBS:Sensor_Audio
 LIBS:Sensor_Current
+LIBS:Sensor_Gas
 LIBS:Sensor_Humidity
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
+LIBS:Sensor_Magnetic
+LIBS:Sensor_Motion
+LIBS:Sensor_MultiFunction
+LIBS:Sensor_Optical
+LIBS:Sensor_Pressure
+LIBS:Sensor_Proximity
+LIBS:Sensor_Temperature
+LIBS:Sensor_Touch
+LIBS:Sensor_Voltage
 LIBS:Switch
-LIBS:texas
+LIBS:Timer
+LIBS:Timer_RTC
 LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
+LIBS:Transistor_Array
+LIBS:Transistor_BJT
+LIBS:Transistor_FET
+LIBS:Transistor_IGBT
+LIBS:Triac_Thyristor
 LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:xilinx-artix7
-LIBS:xilinx-kintex7
-LIBS:xilinx-spartan6
-LIBS:xilinx-virtex5
-LIBS:xilinx-virtex6
-LIBS:xilinx-virtex7
-LIBS:zetex
-LIBS:Zilog
+LIBS:Video
+LIBS:output_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -491,7 +536,7 @@ F 1 "10uF" V 7000 3000 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_4x5.3" H 7088 3100 50  0001 C CNN
 F 3 "" H 7050 3250 50  0000 C CNN
 	1    7050 3250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CP_Small C8
@@ -502,7 +547,7 @@ F 1 "10uF" V 7000 3100 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_4x5.3" H 7088 3200 50  0001 C CNN
 F 3 "" H 7050 3350 50  0000 C CNN
 	1    7050 3350
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CP_Small C9
@@ -513,7 +558,7 @@ F 1 "10uF" V 7000 3200 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_4x5.3" H 7088 3300 50  0001 C CNN
 F 3 "" H 7050 3450 50  0000 C CNN
 	1    7050 3450
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CP_Small C10
@@ -524,7 +569,7 @@ F 1 "10uF" V 7000 3300 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_4x5.3" H 7088 3400 50  0001 C CNN
 F 3 "" H 7050 3550 50  0000 C CNN
 	1    7050 3550
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CP_Small C11
@@ -535,7 +580,7 @@ F 1 "10uF" V 7000 3400 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_4x5.3" H 7088 3500 50  0001 C CNN
 F 3 "" H 7050 3650 50  0000 C CNN
 	1    7050 3650
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CP_Small C12
@@ -546,7 +591,7 @@ F 1 "10uF" V 7000 3500 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_4x5.3" H 7088 3600 50  0001 C CNN
 F 3 "" H 7050 3750 50  0000 C CNN
 	1    7050 3750
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CP_Small C13
@@ -557,7 +602,7 @@ F 1 "10uF" V 7000 3600 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_4x5.3" H 7088 3700 50  0001 C CNN
 F 3 "" H 7050 3850 50  0000 C CNN
 	1    7050 3850
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CP_Small C14
@@ -568,7 +613,7 @@ F 1 "10uF" V 7000 3700 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_4x5.3" H 7088 3800 50  0001 C CNN
 F 3 "" H 7050 3950 50  0000 C CNN
 	1    7050 3950
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Text Label 7300 3250 0    60   ~ 0
 VOUT1
@@ -806,7 +851,7 @@ U 1 1 5A2AF224
 P 2100 3550
 F 0 "J1" H 2150 4000 50  0000 C CNN
 F 1 "Conn_Input" H 2150 3050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x16_Pitch2.54mm" H 2100 3550 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x08_Pitch2.54mm" H 2100 3550 50  0001 C CNN
 F 3 "" H 2100 3550 50  0001 C CNN
 	1    2100 3550
 	-1   0    0    1   
@@ -1074,4 +1119,125 @@ Wire Wire Line
 	2400 3050 2400 3150
 Wire Wire Line
 	2400 3150 2300 3150
+$Comp
+L Test_Point TP1
+U 1 1 5A71C978
+P 4550 4450
+F 0 "TP1" H 4550 4720 50  0000 C CNN
+F 1 "Test_Point" H 4550 4650 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4750 4450 50  0001 C CNN
+F 3 "" H 4750 4450 50  0001 C CNN
+	1    4550 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Test_Point TP2
+U 1 1 5A71CD5B
+P 5900 2850
+F 0 "TP2" H 5900 3120 50  0000 C CNN
+F 1 "Test_Point" H 5900 3050 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6100 2850 50  0001 C CNN
+F 3 "" H 6100 2850 50  0001 C CNN
+	1    5900 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Test_Point TP3
+U 1 1 5A71D09B
+P 6150 2900
+F 0 "TP3" H 6150 3170 50  0000 C CNN
+F 1 "Test_Point" H 6150 3100 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6350 2900 50  0001 C CNN
+F 3 "" H 6350 2900 50  0001 C CNN
+	1    6150 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Test_Point TP4
+U 1 1 5A71D2BB
+P 8650 2950
+F 0 "TP4" H 8650 3220 50  0000 C CNN
+F 1 "Test_Point" H 8650 3150 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8850 2950 50  0001 C CNN
+F 3 "" H 8850 2950 50  0001 C CNN
+	1    8650 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Test_Point TP5
+U 1 1 5A71D46F
+P 9600 2950
+F 0 "TP5" H 9600 3220 50  0000 C CNN
+F 1 "Test_Point" H 9600 3150 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9800 2950 50  0001 C CNN
+F 3 "" H 9800 2950 50  0001 C CNN
+	1    9600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Test_Point TP6
+U 1 1 5A71D57F
+P 8650 3150
+F 0 "TP6" H 8650 3420 50  0000 C CNN
+F 1 "Test_Point" H 8650 3350 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8850 3150 50  0001 C CNN
+F 3 "" H 8850 3150 50  0001 C CNN
+	1    8650 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Test_Point TP7
+U 1 1 5A71D62E
+P 9600 3150
+F 0 "TP7" H 9600 3420 50  0000 C CNN
+F 1 "Test_Point" H 9600 3350 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9800 3150 50  0001 C CNN
+F 3 "" H 9800 3150 50  0001 C CNN
+	1    9600 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Test_Point TP10
+U 1 1 5A71D7A0
+P 8650 4150
+F 0 "TP10" H 8650 4420 50  0000 C CNN
+F 1 "Test_Point" H 8650 4350 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8850 4150 50  0001 C CNN
+F 3 "" H 8850 4150 50  0001 C CNN
+	1    8650 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Test_Point TP11
+U 1 1 5A71D83B
+P 9600 4150
+F 0 "TP11" H 9600 4420 50  0000 C CNN
+F 1 "Test_Point" H 9600 4350 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9800 4150 50  0001 C CNN
+F 3 "" H 9800 4150 50  0001 C CNN
+	1    9600 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Test_Point TP8
+U 1 1 5A71D8D7
+P 8650 3950
+F 0 "TP8" H 8650 4220 50  0000 C CNN
+F 1 "Test_Point" H 8650 4150 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8850 3950 50  0001 C CNN
+F 3 "" H 8850 3950 50  0001 C CNN
+	1    8650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Test_Point TP9
+U 1 1 5A71D97E
+P 9600 3950
+F 0 "TP9" H 9600 4220 50  0000 C CNN
+F 1 "Test_Point" H 9600 4150 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9800 3950 50  0001 C CNN
+F 3 "" H 9800 3950 50  0001 C CNN
+	1    9600 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
